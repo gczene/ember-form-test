@@ -17,4 +17,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: git branch
+      - run: git checkout -b build && git push origin build
